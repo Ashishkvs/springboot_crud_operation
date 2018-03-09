@@ -13,3 +13,5 @@ localhost:7777/product/update/{id}
 send Product updated  object in json format to add into database using postman body
  NOTE ::don't pass incomplete Product object 
  DO PASS ALL MEMBER var of Product else it will throw an error as @JsonProperty has not been added
+ 
+ PLZ NOTE HERE EVERY WHERE Product.class from entity package has been Use NO WHERE **** Product.class from model package Used
